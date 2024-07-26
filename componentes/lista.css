@@ -1,0 +1,33 @@
+.lista{
+   width: 450px;
+   background-color: yellow;
+
+}
+
+
+.lista__item{
+  border-bottom: 2px solid black ;
+  border-radius: 20px;
+  padding: 12px;
+  margin: 25px;
+
+}
+
+.lista__item2{
+  
+  border-radius: 20px;
+  padding: 12px;
+  margin: 25px;
+
+}
+
+
+.lista__texto{
+
+
+}
+
+.lista__icono{
+
+
+}
