@@ -3,7 +3,7 @@
 
 
 .boton{
-  display: block;
+  display: inline-flex;
   width: 120px;
   background-color: blueviolet;
   padding: 12px;
@@ -11,7 +11,8 @@
   border-radius: 5px;
   margin: 0 auto;
   text-decoration: none;
-  
+  margin-left: 20px;
+  margin-top: 20px;
   justify-content: space-between;
   font-weight: 100;
   font-style: normal;
