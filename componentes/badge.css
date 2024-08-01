@@ -1,0 +1,61 @@
+.badge{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.badge__texto{
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    background-color: #6c757d;
+    color: white;
+
+
+}
+
+.badge__texto--mod1{
+
+    background-color:darkgray;
+
+}
+
+.badge__texto--mod1:hover{
+
+    background-color: #6c757d ;
+    cursor: pointer;
+}
+
+.badge__texto--mod2{
+    background-color: bisque;
+    
+}
+
+.badge__texto--mod2:hover{
+    cursor: pointer;
+    background-color: darkgoldenrod;
+    border-radius: 1rem;
+    transition: 2s;
+    font-size: 85%;
+}
+
+.badge__texto--mod3{
+    background-color: black;
+
+}
+
+.badge__texto--mod3:hover{
+
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 1s;
+}

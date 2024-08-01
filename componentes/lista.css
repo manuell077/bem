@@ -1,17 +1,28 @@
 .lista{
    width: 450px;
-   background-color: yellow;
+  
 
 }
 
 
 .lista__item{
-  border-bottom: 2px solid black ;
+  border: 1px solid black;
+  border-bottom: 5px solid black ;
   border-radius: 20px;
   padding: 12px;
   margin: 25px;
+  
 
 }
+
+.lista__item:hover{
+   font-size: 20px;
+   background-color: aliceblue;
+   transition: 2s;
+
+}
+
+
 
 .lista__item2{
   
@@ -23,11 +34,51 @@
 
 
 .lista__texto{
+    font-family: "Poppins", sans-serif;
 
+}
+
+.lista__item--bisque{
+
+   background-color: aliceblue;
+}
+
+.lista__item--bisque:hover{
+
+    font-size: 10px;
+    transition: 2s;
+    background-color: bisque;
+}
+
+.lista__item--chulito{
+
+   background-color: brown;
+}
+
+.lista__item--chulito:hover::before{
+      
+     content: "✓";
+     
+    
+}
+
+.lista__item--chulito:hover{
+
+     background-color: thistle;
 
 }
 
-.lista__icono{
-
+.lista__item--red{
+    background-color: red;
 
 }
+
+.lista__item--red:hover{
+     
+     color: white;
+     background-color: darkblue;
+     font-size: 35px;
+     font-family: "Edu AU VIC WA NT Hand", cursive;
+
+}
+
