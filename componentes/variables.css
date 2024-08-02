@@ -1,4 +1,7 @@
 :root{
+  --blanco: #fff;
+  --negro: #000;
+  --tiempo: 2s;
   --color: #f12;
   --color2: #e0da1c;
   --color3: #81e410;

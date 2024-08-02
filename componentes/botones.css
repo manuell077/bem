@@ -16,29 +16,29 @@
   justify-content: space-between;
   font-weight: 100;
   font-style: normal;
-  color: #fff;
+  color: var(--blanco);
   cursor: pointer;
   
 
 }
 .boton--border{
-   border: 1px solid black;
-   background-color: #fff;
+   border: 1px solid var(--negro);
+   background-color: var(--blanco);
    color: blueviolet;
 
 }
 
 .boton:hover{
-   background-color: #fff;
+   background-color: var(--blanco);
    color: blueviolet  ;
    transition: 2s;
 
 }
 
 .boton--border:hover{
-   border: 1px solid black;
+   border: 1px solid var(--negro);
    background-color: blueviolet;
-   color: #fff;
+   color: var(--blanco);
    transition: 2s;
 
 }
@@ -47,7 +47,7 @@
 
 .boton--azul:hover{
    background-color: var(--color4);
-   transition: 2s;
+   transition: var(--tiempo);
 
 
 }
@@ -55,21 +55,21 @@
 
 
 .boton--amarilloSuave{
-  background-color: #fff;
+  background-color: var(--blanco);
    color: var(--color2);
 
 
 }
 .boton--amarilloSuave:hover{
   background-color: var(--color2);
-  color: black ;
+  color: var(--negro);
   transition: 2s;
 
 }
 
 .boton--amarillo{
    background-color: var(--color2);
-   color: black ;
+   color: var(--negro) ;
    
 
 
@@ -78,7 +78,7 @@
 .boton--amarillo:hover{
    background-color: #fff;
    color: var(--color2);
-   transition: 2s;
+   transition: var(--tiempo);
 
 }
 
@@ -90,8 +90,8 @@
 
 .boton--rojoSuave:hover{
    background-color: var(--color);
-   color: #fff;
-   transition: 2s;
+   color: var(--blanco);
+   transition: var(--tiempo);
 
 }
 .boton--rojo{
@@ -99,14 +99,14 @@
 
 }
 .boton--rojo:hover{
-  background-color: #fff;
+  background-color: var(--blanco);
   color: var(--color);
-  transition: 2s;
+  transition: var(--tiempo);
 
 }
 
 .boton--verdeSuave{
-   background-color: #fff ;
+   background-color: var(--blanco) ;
    color: var(--color3);
 
 
@@ -135,13 +135,3 @@
 
 
 
-.boton__texto{
-  /* color: #fff; */
-
-}
-
-.boton__icono{
-   /* color: #fff; */
-
-
-}

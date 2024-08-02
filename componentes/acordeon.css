@@ -12,7 +12,7 @@
 .acordeon__titulo{
 
     background-color: rgba(0, 0, 255, 0.459);
-    color: white;
+    color: var(--blanco);
     padding: 20px;
     cursor: pointer;
     font-family:  "Poppins", sans-serif;
@@ -21,13 +21,13 @@
 
 .acordeon__texto{
    padding: 10px;
-   background: white;
+   background: var(--blanco);
    font-family:  "Poppins", sans-serif;
 
 }
 .acordeon__titulo--mod1{
 
-    background-color: black;
+    background-color: var(--negro);
 }
 
 .acordeon__titulo--mod1:active{
@@ -38,7 +38,7 @@
 .acordeon__texto--mod1:hover{
 
     background-color: aqua;
-    transition: 2s;
+    transition: var(--tiempo);
 }
 
 .acordeon__titulo--mod2{
@@ -50,7 +50,7 @@
 
     background-color: burlywood;
     border-radius: 35px ;
-    transition: 2s;
+    transition: var(--tiempo);
 }
 
 .acordeon__titulo--mod3{
